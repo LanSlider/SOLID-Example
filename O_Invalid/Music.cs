@@ -8,6 +8,7 @@ namespace O_Invalid
         {
             Console.WriteLine("Read instrument");
             Console.WriteLine("Push keys");
+
             Console.WriteLine("Enjoy by playing");
         }
     }

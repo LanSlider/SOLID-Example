@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{B0178163-DA29-4773-A714-89E52CC411DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_Invalid", "S_Invalid\S_Invalid.csproj", "{F0D1F4AD-76E5-4119-A18F-13F28518AF47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_Valid", "S_Valid\S_Valid.csproj", "{B14554B8-0D7D-46DC-81B9-D1F7CDEA4EBC}"
@@ -31,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0178163-DA29-4773-A714-89E52CC411DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0178163-DA29-4773-A714-89E52CC411DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0178163-DA29-4773-A714-89E52CC411DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0178163-DA29-4773-A714-89E52CC411DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0D1F4AD-76E5-4119-A18F-13F28518AF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0D1F4AD-76E5-4119-A18F-13F28518AF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0D1F4AD-76E5-4119-A18F-13F28518AF47}.Release|Any CPU.ActiveCfg = Release|Any CPU

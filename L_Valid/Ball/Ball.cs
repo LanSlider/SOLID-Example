@@ -10,5 +10,7 @@ namespace L_Valid.Ball
         public int BounceHeight { get; set; }
 
         public virtual int Size { get; set; }
+        public virtual  bool IsNormalElasticity { get; set; }
+
     }
 }

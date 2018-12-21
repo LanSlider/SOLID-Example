@@ -7,6 +7,6 @@ namespace I_Invalid
         void Buy(int id,int amount);
         void CancelBuying(int id);
         void SendCallback(int number);
-        void SendRepaitRequest(int id, DateTime purchaseDate); 
+        void SendRepairsRequest(int id, DateTime purchaseDate); 
     }
 }

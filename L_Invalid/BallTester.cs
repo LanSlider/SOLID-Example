@@ -3,7 +3,7 @@ using L_Invalid.Ball;
 
 namespace L_Invalid
 {
-    class BallPlanTester
+    class BallTester
     {
         public bool CheckBallElasticity(Ball.Ball ball)
         {

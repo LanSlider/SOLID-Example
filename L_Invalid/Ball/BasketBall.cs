@@ -2,6 +2,6 @@
 {
     class BasketBall : Ball
     {
-
+        public string KindOfBall { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace S_Valid
 {
-    public class Book
+    public class ReadBook
     {
         public BookModel CurrentBook { get; set; }
 
@@ -11,9 +11,6 @@
         { }
 
         public void ToFirstPage()
-        { }
-
-        public void PrintPage(IPrinter printer)
         { }
     }
 }

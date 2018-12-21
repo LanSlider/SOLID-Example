@@ -2,8 +2,7 @@
 {
     public interface ICommerceService
     {
-        void Buy(int amount);
+        void Buy(int id, int amount);
         void CancelBuying(int id);
-        void ShowStatus(int id);
     }
 }

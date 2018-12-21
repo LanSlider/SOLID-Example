@@ -1,12 +1,12 @@
-﻿namespace I_Invalid
+﻿using System;
+
+namespace I_Invalid
 {
     public interface ICommerceService
     {
         void Buy(int id,int amount);
         void CancelBuying(int id);
-        void ShowStatus(int id);
-
-        void MakeConsoleLog();
-        void MakeFileLog();   
+        void SendCallback(int number);
+        void SendRepaitRequest(int id, DateTime purchaseDate); 
     }
 }

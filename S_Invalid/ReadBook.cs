@@ -2,7 +2,7 @@
 
 namespace S_Invalid
 {
-    public class Book
+    public class ReadBook
     {
         public BookModel CurrentBook { get; set; }
 

@@ -2,9 +2,11 @@
 {
     public interface ICommerceService
     {
-        void Buy(int amount);
+        void Buy(int id,int amount);
         void CancelBuying(int id);
-        void MakeLog();
         void ShowStatus(int id);
+
+        void MakeConsoleLog();
+        void MakeFileLog();   
     }
 }

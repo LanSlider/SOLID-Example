@@ -3,6 +3,7 @@
     public interface ICommerceService
     {
         void Buy(int amount);
-        void CancelBuying(int id);    
+        void CancelBuying(int id);
+        void ShowStatus(int id);
     }
 }
